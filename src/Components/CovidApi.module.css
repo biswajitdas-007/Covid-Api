@@ -1,0 +1,40 @@
+.apiForm {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2%;
+}
+.apiForm > div label {
+  font-size: 20px;
+  font-weight: 600;
+}
+.apiForm > div input {
+  padding: 10px;
+  font-size: 20px;
+  margin: auto;
+  margin-top: 2%;
+  width: 30vw;
+  outline: none;
+  border: none;
+}
+.apiForm > div input::placeholder {
+  font-size: 20px;
+}
+.apiForm > button {
+  margin: auto;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 15px;
+}
+.centerDetails {
+  margin: auto;
+  border: 6px solid rgb(161, 60, 60);
+  background-color: tomato;
+  padding: 10px;
+  text-align: center;
+  width: 70vw;
+  color: rgb(43, 3, 80);
+  /* box-shadow: rgb(0 0 255 / 65%) 30px 35px 45px; */
+}
